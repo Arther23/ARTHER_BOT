@@ -1,5 +1,4 @@
-<img alt="X-2.0" height="300" src="
-https://telegra.ph/file/c6f73633ce71a814c5212.jpg">
+<img alt="X-2.0" height="300" src="https://telegra.ph/file/c6f73633ce71a814c5212.jpg">
 
 <div align="center">
     ⏬<b>ARTHER BOT MD</b>⏬</b>
