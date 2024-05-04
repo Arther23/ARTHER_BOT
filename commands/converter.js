@@ -89,7 +89,7 @@ cmd({
             };
             let res = await axios.post("https://bot.lyo.su/quote/generate", body);
             let img = Buffer.alloc(res.data.result.image.length, res.data.result.image, "base64");
-            return citel.reply(img,{packname:'Elsa',author:'Quotely'},"sticker")
+            return citel.reply(img,{packname:'Arther',author:'Quotely'},"sticker")
 
         }
     )
@@ -106,9 +106,9 @@ cmd({
         async(Void, citel, text) => {
             if (isNaN(text.split(" ")[0]) || !text) {
                 let text = tiny(
-                    "*֎╎اكـتـب الامـر مـثـال┇.زخرفه 45 ELSA BOT*\n\n"
+                    "*֎╎اكـتـب الامـر مـثـال┇.زخرفه 45 ARTHER BOT*\n\n"
                 );
-                listall("ELSA BOT").forEach((txt, num) => {
+                listall("ARTHER BOT").forEach((txt, num) => {
                     text += `${(num += 1)} ${txt}\n`;
                 });
                 return await citel.reply(text);
