@@ -84,7 +84,7 @@ cmd({
         citel.reply(`*֎╎شـوف خـاصـك*`);
         await Void.sendMessage(`${citel.sender}`, {
             image: log0,
-            caption: `*֎╎رابـط جـروب الـدعـم┇ https://chat.whatsapp.com/G1OemEBwEGV3xO42hcSHIl*`,
+            caption: `*֎╎رابـط جـروب الـدعـم┇ https://chat.whatsapp.com/D2q8dnfUwbL83Tz79bGEKU*`,
         });
 
     }
